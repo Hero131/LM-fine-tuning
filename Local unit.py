@@ -6,7 +6,7 @@ from datetime import datetime
 
 file_path = '\Users\pauls\OneDrive\Desktop\llm training (research paper)/1mb/case_1.txt'
 base_filename = os.path.splitext(os.path.basename(file_path))[0]
-
+ 
 with open(file_path, 'r', encoding='utf-8') as f:
     full_text = f.read()
 print(f"done"
